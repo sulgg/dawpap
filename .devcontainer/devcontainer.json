@@ -13,7 +13,14 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter"
-			]
+			],
+			"settings": {
+				"notebook.insertToolbarLocation": "hidden",
+				"notebook.showCellStatusBar": "hidden",
+				"notebook.cellToolbarLocation": {
+					"jupyter-notebook": "hidden"
+				}
+			}
 		}
 	}
 
