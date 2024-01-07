@@ -7,6 +7,8 @@
 # Chapter 2.
 #
 ###############################################################################
+import findspark
+findspark.init()
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, split, explode, lower, regexp_extract
@@ -26,3 +28,5 @@ words_clean = words_lower.select(
 )
 
 words_nonull = words_clean.where(col("word") != "")
+
+words_nonull.show()
