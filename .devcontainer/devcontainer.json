@@ -16,6 +16,7 @@
 				"mechatroner.rainbow-csv"
 			],
 			"settings": {
+				"files.autoSave": "onFocusChange",
 				"editor.guides.indentation": false,
 				"notebook.insertToolbarLocation": "hidden",
 				"notebook.showCellStatusBar": "hidden",
