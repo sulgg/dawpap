@@ -12,12 +12,15 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
+				"ms-python.black-formatter",
 				"ms-toolsai.jupyter",
 				"mechatroner.rainbow-csv"
 			],
 			"settings": {
 				"files.autoSave": "onFocusChange",
 				"editor.guides.indentation": false,
+				"editor.defaultFormatter": "ms-python.black-formatter",
+				"notebook.formatOnCellExecution": true,
 				"notebook.insertToolbarLocation": "hidden",
 				"notebook.showCellStatusBar": "hidden",
 				"notebook.cellToolbarLocation": {
